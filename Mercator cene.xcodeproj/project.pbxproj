@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F9ED3999AC70A34601B6B37 /* Pods_Mercator_ceneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F332CE8A51740FB4E689A8F /* Pods_Mercator_ceneUITests.framework */; };
+		9E38187AEC89E7A1919D03B1 /* Pods_Mercator_ceneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5652B1B7E6FD8CDD7A3DE49 /* Pods_Mercator_ceneTests.framework */; };
+		CC5D9728859F9C86EF70EF70 /* Pods_Mercator_cene.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1936D912295B2D467763ADEF /* Pods_Mercator_cene.framework */; };
 		CE255B021DCB677E000989B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE255B011DCB677E000989B6 /* AppDelegate.swift */; };
 		CE255B041DCB677E000989B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE255B031DCB677E000989B6 /* ViewController.swift */; };
 		CE255B071DCB677E000989B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE255B051DCB677E000989B6 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		CE255B0C1DCB677E000989B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE255B0A1DCB677E000989B6 /* LaunchScreen.storyboard */; };
 		CE255B171DCB677E000989B6 /* Mercator_ceneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE255B161DCB677E000989B6 /* Mercator_ceneTests.swift */; };
 		CE255B221DCB677F000989B6 /* Mercator_ceneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE255B211DCB677F000989B6 /* Mercator_ceneUITests.swift */; };
+		CE5F42471DCB721900F4DE88 /* PrikazCeneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F42461DCB721900F4DE88 /* PrikazCeneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1936D912295B2D467763ADEF /* Pods_Mercator_cene.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mercator_cene.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F332CE8A51740FB4E689A8F /* Pods_Mercator_ceneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mercator_ceneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9570323128E947CADE73D6 /* Pods-Mercator cene.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercator cene.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mercator cene/Pods-Mercator cene.release.xcconfig"; sourceTree = "<group>"; };
+		412FF2A042BD120950C849A6 /* Pods-Mercator ceneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercator ceneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mercator ceneTests/Pods-Mercator ceneTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A7C852B1E21E3DBAADB04CF /* Pods-Mercator ceneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercator ceneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mercator ceneTests/Pods-Mercator ceneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6B8F662C24F61EE386EB256 /* Pods-Mercator cene.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercator cene.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mercator cene/Pods-Mercator cene.debug.xcconfig"; sourceTree = "<group>"; };
+		C0DCC24E486AA9338E3FC805 /* Pods-Mercator ceneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercator ceneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mercator ceneUITests/Pods-Mercator ceneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE255AFE1DCB677E000989B6 /* Mercator cene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mercator cene.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE255B011DCB677E000989B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE255B031DCB677E000989B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		CE255B1D1DCB677F000989B6 /* Mercator ceneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mercator ceneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE255B211DCB677F000989B6 /* Mercator_ceneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercator_ceneUITests.swift; sourceTree = "<group>"; };
 		CE255B231DCB677F000989B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5F42461DCB721900F4DE88 /* PrikazCeneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrikazCeneViewController.swift; sourceTree = "<group>"; };
+		F5652B1B7E6FD8CDD7A3DE49 /* Pods_Mercator_ceneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mercator_ceneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6DA137252604B06CC86B75 /* Pods-Mercator ceneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercator ceneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mercator ceneUITests/Pods-Mercator ceneUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5D9728859F9C86EF70EF70 /* Pods_Mercator_cene.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E38187AEC89E7A1919D03B1 /* Pods_Mercator_ceneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F9ED3999AC70A34601B6B37 /* Pods_Mercator_ceneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B5F8E9D570DA3A32CA337DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6B8F662C24F61EE386EB256 /* Pods-Mercator cene.debug.xcconfig */,
+				2F9570323128E947CADE73D6 /* Pods-Mercator cene.release.xcconfig */,
+				5A7C852B1E21E3DBAADB04CF /* Pods-Mercator ceneTests.debug.xcconfig */,
+				412FF2A042BD120950C849A6 /* Pods-Mercator ceneTests.release.xcconfig */,
+				C0DCC24E486AA9338E3FC805 /* Pods-Mercator ceneUITests.debug.xcconfig */,
+				FF6DA137252604B06CC86B75 /* Pods-Mercator ceneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B23EB6306E2012F1E23649FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1936D912295B2D467763ADEF /* Pods_Mercator_cene.framework */,
+				F5652B1B7E6FD8CDD7A3DE49 /* Pods_Mercator_ceneTests.framework */,
+				1F332CE8A51740FB4E689A8F /* Pods_Mercator_ceneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE255AF51DCB677E000989B6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				CE255B151DCB677E000989B6 /* Mercator ceneTests */,
 				CE255B201DCB677F000989B6 /* Mercator ceneUITests */,
 				CE255AFF1DCB677E000989B6 /* Products */,
+				8B5F8E9D570DA3A32CA337DA /* Pods */,
+				B23EB6306E2012F1E23649FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +141,7 @@
 			children = (
 				CE255B011DCB677E000989B6 /* AppDelegate.swift */,
 				CE255B031DCB677E000989B6 /* ViewController.swift */,
+				CE5F42461DCB721900F4DE88 /* PrikazCeneViewController.swift */,
 				CE255B051DCB677E000989B6 /* Main.storyboard */,
 				CE255B081DCB677E000989B6 /* Assets.xcassets */,
 				CE255B0A1DCB677E000989B6 /* LaunchScreen.storyboard */,
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE255B261DCB677F000989B6 /* Build configuration list for PBXNativeTarget "Mercator cene" */;
 			buildPhases = (
+				9E01409E9362200751C4CEE6 /* [CP] Check Pods Manifest.lock */,
 				CE255AFA1DCB677E000989B6 /* Sources */,
 				CE255AFB1DCB677E000989B6 /* Frameworks */,
 				CE255AFC1DCB677E000989B6 /* Resources */,
+				96590900A6CC94514C01CB91 /* [CP] Embed Pods Frameworks */,
+				FE2215E89B37D1C004341660 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE255B291DCB677F000989B6 /* Build configuration list for PBXNativeTarget "Mercator ceneTests" */;
 			buildPhases = (
+				7D1889CC233D9F36AE054662 /* [CP] Check Pods Manifest.lock */,
 				CE255B0E1DCB677E000989B6 /* Sources */,
 				CE255B0F1DCB677E000989B6 /* Frameworks */,
 				CE255B101DCB677E000989B6 /* Resources */,
+				A1DEFE2B39F4B93E5007881F /* [CP] Embed Pods Frameworks */,
+				05077B73ECE2AB21B176527B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE255B2C1DCB677F000989B6 /* Build configuration list for PBXNativeTarget "Mercator ceneUITests" */;
 			buildPhases = (
+				C058B80CF5A54C747BC7C867 /* [CP] Check Pods Manifest.lock */,
 				CE255B191DCB677F000989B6 /* Sources */,
 				CE255B1A1DCB677F000989B6 /* Frameworks */,
 				CE255B1B1DCB677F000989B6 /* Resources */,
+				2325A35B371BC2F10542EE74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,17 +245,20 @@
 					CE255AFD1DCB677E000989B6 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = U548NFKUDD;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					CE255B111DCB677E000989B6 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = U548NFKUDD;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CE255AFD1DCB677E000989B6;
 					};
 					CE255B1C1DCB677F000989B6 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = U548NFKUDD;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CE255AFD1DCB677E000989B6;
 					};
@@ -257,12 +311,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05077B73ECE2AB21B176527B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercator ceneTests/Pods-Mercator ceneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2325A35B371BC2F10542EE74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercator ceneUITests/Pods-Mercator ceneUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1889CC233D9F36AE054662 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96590900A6CC94514C01CB91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercator cene/Pods-Mercator cene-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E01409E9362200751C4CEE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1DEFE2B39F4B93E5007881F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercator ceneTests/Pods-Mercator ceneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C058B80CF5A54C747BC7C867 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2215E89B37D1C004341660 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercator cene/Pods-Mercator cene-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE255AFA1DCB677E000989B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CE255B041DCB677E000989B6 /* ViewController.swift in Sources */,
+				CE5F42471DCB721900F4DE88 /* PrikazCeneViewController.swift in Sources */,
 				CE255B021DCB677E000989B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,8 +591,10 @@
 		};
 		CE255B271DCB677F000989B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B8F662C24F61EE386EB256 /* Pods-Mercator cene.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = U548NFKUDD;
 				INFOPLIST_FILE = "Mercator cene/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,8 +606,10 @@
 		};
 		CE255B281DCB677F000989B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9570323128E947CADE73D6 /* Pods-Mercator cene.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = U548NFKUDD;
 				INFOPLIST_FILE = "Mercator cene/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +621,7 @@
 		};
 		CE255B2A1DCB677F000989B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7C852B1E21E3DBAADB04CF /* Pods-Mercator ceneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +637,7 @@
 		};
 		CE255B2B1DCB677F000989B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 412FF2A042BD120950C849A6 /* Pods-Mercator ceneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +653,7 @@
 		};
 		CE255B2D1DCB677F000989B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0DCC24E486AA9338E3FC805 /* Pods-Mercator ceneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = U548NFKUDD;
@@ -483,6 +668,7 @@
 		};
 		CE255B2E1DCB677F000989B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF6DA137252604B06CC86B75 /* Pods-Mercator ceneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = U548NFKUDD;
@@ -514,6 +700,7 @@
 				CE255B281DCB677F000989B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE255B291DCB677F000989B6 /* Build configuration list for PBXNativeTarget "Mercator ceneTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +709,7 @@
 				CE255B2B1DCB677F000989B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE255B2C1DCB677F000989B6 /* Build configuration list for PBXNativeTarget "Mercator ceneUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +718,7 @@
 				CE255B2E1DCB677F000989B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
