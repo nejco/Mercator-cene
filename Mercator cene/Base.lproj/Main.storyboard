@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -30,45 +31,98 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="ADQ-ds-ShN" kind="show" identifier="prehod1" id="46l-xQ-IhT"/>
+                        <segue destination="dho-3k-7fB" kind="show" identifier="prehod1" id="XgC-cK-6Qi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="138.98050974512745"/>
         </scene>
-        <!--Prikaz Cene View Controller-->
-        <scene sceneID="XT0-0u-JQb">
+        <!--Tuš-->
+        <scene sceneID="1WW-2m-DZ4">
             <objects>
-                <viewController id="ADQ-ds-ShN" customClass="PrikazCeneViewController" customModule="Mercator_cene" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Tuš" id="lm4-YU-OYa" customClass="PrikazCeneTusViewController" customModule="Mercator_cene" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="MsZ-gw-xVH"/>
-                        <viewControllerLayoutGuide type="bottom" id="DKf-o2-B6U"/>
+                        <viewControllerLayoutGuide type="top" id="rhr-u4-vJR"/>
+                        <viewControllerLayoutGuide type="bottom" id="V9T-VT-XCL"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xa6-Bh-M7f">
+                    <view key="view" contentMode="scaleToFill" id="w2M-Np-9EB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b3Y-2N-aAo">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hMd-sL-fwR">
+                                <rect key="frame" x="0.0" y="0.0" width="369" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hMd-sL-fwR" firstAttribute="top" secondItem="w2M-Np-9EB" secondAttribute="top" id="3RD-Z3-NvO"/>
+                            <constraint firstAttribute="bottom" secondItem="hMd-sL-fwR" secondAttribute="bottom" id="MiK-ik-Uhj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hMd-sL-fwR" secondAttribute="trailing" constant="-10" id="dI8-ho-9TF"/>
+                            <constraint firstItem="hMd-sL-fwR" firstAttribute="leading" secondItem="w2M-Np-9EB" secondAttribute="leading" id="f96-bg-ZdN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tuš" id="oKc-xc-HhD"/>
+                    <connections>
+                        <outlet property="webView" destination="hMd-sL-fwR" id="d75-eA-zjN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ehB-8t-cDk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3013.5999999999999" y="465.51724137931041"/>
+        </scene>
+        <!--Mercator-->
+        <scene sceneID="iLx-Kd-ZeA">
+            <objects>
+                <viewController title="Mercator" id="k9o-Y9-t4D" customClass="PrikazCeneMercatorViewController" customModule="Mercator_cene" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wIo-Wk-ldI"/>
+                        <viewControllerLayoutGuide type="bottom" id="f1f-gO-TTU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7iB-EQ-LWw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ah-O9-pvf">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="b3Y-2N-aAo" firstAttribute="top" secondItem="xa6-Bh-M7f" secondAttribute="top" id="ATn-yd-a66"/>
-                            <constraint firstItem="b3Y-2N-aAo" firstAttribute="bottom" secondItem="DKf-o2-B6U" secondAttribute="top" id="Hvd-lS-IYp"/>
-                            <constraint firstItem="b3Y-2N-aAo" firstAttribute="leading" secondItem="xa6-Bh-M7f" secondAttribute="leading" id="Pfo-rF-6kL"/>
-                            <constraint firstAttribute="trailing" secondItem="b3Y-2N-aAo" secondAttribute="trailing" id="XjT-H6-g8f"/>
+                            <constraint firstItem="0ah-O9-pvf" firstAttribute="top" secondItem="7iB-EQ-LWw" secondAttribute="top" id="3pi-Xp-5d4"/>
+                            <constraint firstAttribute="bottom" secondItem="0ah-O9-pvf" secondAttribute="bottom" id="McS-4D-Csi"/>
+                            <constraint firstItem="0ah-O9-pvf" firstAttribute="leading" secondItem="7iB-EQ-LWw" secondAttribute="leading" id="dVg-nT-93D"/>
+                            <constraint firstAttribute="trailing" secondItem="0ah-O9-pvf" secondAttribute="trailing" id="hvu-ju-hY8"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Mercator" id="vSK-SH-B5Y"/>
                     <connections>
-                        <outlet property="webView" destination="b3Y-2N-aAo" id="van-yt-KVw"/>
+                        <outlet property="webView" destination="0ah-O9-pvf" id="dhA-7f-o8b"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="I10-9w-L9R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dNF-8V-w0O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1999.2" y="138.98050974512745"/>
+            <point key="canvasLocation" x="3013.5999999999999" y="-188.45577211394306"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="P2a-gT-62h">
+            <objects>
+                <tabBarController id="dho-3k-7fB" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="xEt-hW-XbC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="k9o-Y9-t4D" kind="relationship" relationship="viewControllers" id="gbe-7r-ab5"/>
+                        <segue destination="lm4-YU-OYa" kind="relationship" relationship="viewControllers" id="ChY-zv-pBh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yeg-mU-ycV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2062" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LGc-g3-Evf">

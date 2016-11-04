@@ -74,11 +74,13 @@ class ViewController: RSCodeReaderViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "prehod1") {
-            let svc = segue.destination as! PrikazCeneViewController;
             if let k = koda {
-                svc.koda = k
-
+                Static.code = k
+            
             }
+            
+            
+
             
         }
         

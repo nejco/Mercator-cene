@@ -17,7 +17,9 @@
 		CE255B0C1DCB677E000989B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE255B0A1DCB677E000989B6 /* LaunchScreen.storyboard */; };
 		CE255B171DCB677E000989B6 /* Mercator_ceneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE255B161DCB677E000989B6 /* Mercator_ceneTests.swift */; };
 		CE255B221DCB677F000989B6 /* Mercator_ceneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE255B211DCB677F000989B6 /* Mercator_ceneUITests.swift */; };
-		CE5F42471DCB721900F4DE88 /* PrikazCeneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F42461DCB721900F4DE88 /* PrikazCeneViewController.swift */; };
+		CE5F42471DCB721900F4DE88 /* PrikazCeneMercatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F42461DCB721900F4DE88 /* PrikazCeneMercatorViewController.swift */; };
+		CEE1F3891DCD3E4100CDAC09 /* PrikazCeneTusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1F3881DCD3E4100CDAC09 /* PrikazCeneTusViewController.swift */; };
+		CEE1F38B1DCD40E100CDAC09 /* Static.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1F38A1DCD40E100CDAC09 /* Static.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +60,9 @@
 		CE255B1D1DCB677F000989B6 /* Mercator ceneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mercator ceneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE255B211DCB677F000989B6 /* Mercator_ceneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercator_ceneUITests.swift; sourceTree = "<group>"; };
 		CE255B231DCB677F000989B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE5F42461DCB721900F4DE88 /* PrikazCeneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrikazCeneViewController.swift; sourceTree = "<group>"; };
+		CE5F42461DCB721900F4DE88 /* PrikazCeneMercatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrikazCeneMercatorViewController.swift; sourceTree = "<group>"; };
+		CEE1F3881DCD3E4100CDAC09 /* PrikazCeneTusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrikazCeneTusViewController.swift; sourceTree = "<group>"; };
+		CEE1F38A1DCD40E100CDAC09 /* Static.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Static.swift; sourceTree = "<group>"; };
 		F5652B1B7E6FD8CDD7A3DE49 /* Pods_Mercator_ceneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mercator_ceneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6DA137252604B06CC86B75 /* Pods-Mercator ceneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercator ceneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mercator ceneUITests/Pods-Mercator ceneUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,7 +145,9 @@
 			children = (
 				CE255B011DCB677E000989B6 /* AppDelegate.swift */,
 				CE255B031DCB677E000989B6 /* ViewController.swift */,
-				CE5F42461DCB721900F4DE88 /* PrikazCeneViewController.swift */,
+				CEE1F38A1DCD40E100CDAC09 /* Static.swift */,
+				CE5F42461DCB721900F4DE88 /* PrikazCeneMercatorViewController.swift */,
+				CEE1F3881DCD3E4100CDAC09 /* PrikazCeneTusViewController.swift */,
 				CE255B051DCB677E000989B6 /* Main.storyboard */,
 				CE255B081DCB677E000989B6 /* Assets.xcassets */,
 				CE255B0A1DCB677E000989B6 /* LaunchScreen.storyboard */,
@@ -440,8 +446,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE255B041DCB677E000989B6 /* ViewController.swift in Sources */,
-				CE5F42471DCB721900F4DE88 /* PrikazCeneViewController.swift in Sources */,
+				CEE1F3891DCD3E4100CDAC09 /* PrikazCeneTusViewController.swift in Sources */,
+				CE5F42471DCB721900F4DE88 /* PrikazCeneMercatorViewController.swift in Sources */,
 				CE255B021DCB677E000989B6 /* AppDelegate.swift in Sources */,
+				CEE1F38B1DCD40E100CDAC09 /* Static.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

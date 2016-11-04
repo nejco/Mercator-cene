@@ -7,19 +7,17 @@
 //
 
 import UIKit
-import Alamofire
 
-class PrikazCeneViewController: UIViewController {
+class PrikazCeneMercatorViewController: UIViewController {
     @IBOutlet weak var webView: UIWebView!
-    
-    var koda:String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let k = koda {
+        if let k = Static.code {
             
             let urls = "https://trgovina.mercator.si/market/brskaj#search=\(k)"
+            
             let url = URL(string: urls)!
             
             self.webView.loadRequest(URLRequest(url: url))
